@@ -33,13 +33,21 @@ p span
 {
     color: black;
 }
-ul li a :nth-child(1)
+ul, ul li a 
 {
-    color:red;
-    background-color: yellow;
+    color:white;
+    text-decoration: none;
 }
-a span{
-    color: blue;
+ul li:nth-child(1) a span {
+    color: red;
+    background-color: yellow;
+    
+}
+
+
+ul li:nth-child(2) a span {
+    color: green;
+    background-color: blue;
     
 }
 
