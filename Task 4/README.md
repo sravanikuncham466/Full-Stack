@@ -1,5 +1,5 @@
 # Task 4 : CSS Units, Box models, and Fonts
-This project demonstrates the use of CSS Units, boc models, and font styling to create a centered layout with an image and interative button. The page uses viewport units for responsive spacing and ensures no scrolling occurs.
+This project demonstrates the use of CSS Units, box models, and font styling to create a centered layout with an image and interative button. The page uses viewport units for responsive spacing and ensures no scrolling occurs.
 
 ## HTML setup
 - Document structure with proper HTML tags
@@ -12,20 +12,20 @@ This project demonstrates the use of CSS Units, boc models, and font styling to 
 - Interactive button with class .button
 
 ## CSS Styling 
-- Equal spacing of 25% from left and right using margin-left and margin-right
-- spacing of 10% from top and bottom using margin-top and margin-bottom
+- I used "25vw" for left/right margins
+- I used "10vh" for top/bottom margins
 - Button with gradient background using linear-gradient
 - custom font settings
-- box sizing properly applied with box-sizing
-- No scrolling
 - Viewport units used - vh, vw
+- Margins create space outside the box
+- Padding creates space inside the box
 
+Total height = 10vh (top) + 80vh (content) + 10vh (bottom) = 100vh
+Total width = 25vw margin-left + 50vw width + 25vw margin-right = 100vw
 ## Constraints followed
 
 - No flexbox used
 - No overflow: hidden
-- No position: relative or absolute
-- page fits within the viewport
 
 ## File structure
 
