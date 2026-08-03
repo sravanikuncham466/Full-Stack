@@ -1,0 +1,77 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Calibri', sans-serif;
+}
+.container
+{
+    display: flex;
+    height: 100vh;
+}
+
+.image
+{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(100, 174, 192);
+  
+}
+.image img
+{
+     width:300px;
+}
+.forms
+{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(202, 227, 233);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;  
+    width: 300px;
+}
+h1,p
+{
+    text-align: center;
+}
+#Email,#password
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ccc;
+    border-radius:7px;
+}
+.forgot-password
+{
+    text-align: right;
+    text-decoration: none;
+    color:rgb(34, 11, 11);
+    font-size: 12px;
+}
+button{
+    background-color:rgb(92, 156, 216);
+    color:white;
+    padding : 10px;
+    border:none;
+    border-radius:7px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.message
+{
+    text-align: center;
+    font-size: 10px;
+}
+.message a
+{
+    text-decoration: none;
+    font-size:10px;
+}
